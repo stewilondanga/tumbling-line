@@ -76,11 +76,11 @@
   outline: none;
 }
 
-/*.more:hover {
+.more:hover {
   background: #a50a3e;
 }
 
-.quantity {
+/*.quantity {
   width: 150px;
   height: 68px;
   padding: 20px;
