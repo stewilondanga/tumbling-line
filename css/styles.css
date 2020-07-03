@@ -37,12 +37,12 @@
   transform: rotate(65deg);
 }
 
-/*.checkbox:checked+.domino:last-of-type {
+.checkbox:checked+.domino:last-of-type {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-.domino {
+/*.domino {
   display: inline-block;
   width: 17px;
   height: 70px;
