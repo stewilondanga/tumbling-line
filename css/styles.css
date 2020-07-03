@@ -25,14 +25,14 @@
   display: none;
 }
 
-/*.checkbox:checked+.domino {
+.checkbox:checked+.domino {
   -webkit-transform: rotate(61deg);
   transform: rotate(61deg);
   -webkit-transform-origin: bottom right;
   transform-origin: bottom right;
 }
 
-.checkbox:checked+.domino:nth-last-of-type(2) {
+/*.checkbox:checked+.domino:nth-last-of-type(2) {
   -webkit-transform: rotate(65deg);
   transform: rotate(65deg);
 }
