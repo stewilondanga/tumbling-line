@@ -18,11 +18,11 @@ var navigate = (function() {
       const checkboxTemplate = id => {
         return `<input class="checkbox" type="checkbox" id=${id}><label class="domino" for=${id}></label>`;
       };
-      const value = quantity.value;
-      for (let i = 0; i < value; i++) {if (window.CP.shouldStopExecution(0)) break;
+      const value = quantity.value
+      for (let i = 0; i < value; i++) {
         const id = `checkbox${i}`;
         container.innerHTML += checkboxTemplate(id);
-      }window.CP.exitedLoop(0);
+      }
     }
 
     handleCheck(checkbox) {
@@ -44,7 +44,7 @@ var navigate = (function() {
 
     handleChange(e) {
       if (e.currentTarget.value > 300 && !notification) {
-        alert(`The quantity is ${e.currentTarget.value}!!!!!11 Use at your own risk ;)`);
+          alert(`The quantity is ${e.currentTarget.value}!!!!!11 Use at your own risk ;)`);
         notification = true;
       }
     }
@@ -53,9 +53,9 @@ var navigate = (function() {
       const checkboxes = Array.from(document.querySelectorAll(".checkbox"));
       checkboxes.forEach(checkbox => {
         checkbox.addEventListener(
-        "change",
-        this.handleCheck.bind(this, checkbox));
-
+          "change",
+          this.handleCheck.bind(this, checkbox)
+        );
       });
     }
 
@@ -68,8 +68,8 @@ var navigate = (function() {
     init() {
       this.renderCheckboxes();
       this.assignListeners();
-    }}
-
+    }
+  }
 
   const dominoes = new Dominoes();
   dominoes.init();
