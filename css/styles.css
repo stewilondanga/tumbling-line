@@ -63,7 +63,7 @@
   margin: 0 0 0 50px;
 }
 
-/*.more {
+.more {
   border: none;
   background: #d41153;
   padding: 20px 50px;
@@ -76,7 +76,7 @@
   outline: none;
 }
 
-.more:hover {
+/*.more:hover {
   background: #a50a3e;
 }
 
