@@ -17,11 +17,11 @@
   box-sizing: border-box;
 }
 
-/*.container {
+.container {
   padding: 0 50px 0 50px;
 }
 
-.checkbox {
+/*.checkbox {
   display: none;
 }
 
