@@ -42,7 +42,7 @@
   transform: rotate(90deg);
 }
 
-/*.domino {
+.domino {
   display: inline-block;
   width: 17px;
   height: 70px;
@@ -55,7 +55,7 @@
   transition: transform 0.25s ease, -webkit-transform 0.25s ease;
 }
 
-.options {
+/*.options {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
